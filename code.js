@@ -23,7 +23,7 @@ function sayHello(string){
 }
 
 function isFive(x) {
-    if (x){
+    if (x == 5){
         return true
     }
     else{
