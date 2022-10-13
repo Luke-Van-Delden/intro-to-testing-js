@@ -127,4 +127,31 @@ describe('isVowel', function() {
     it('should be return false when isVowel() entered', function () {
         expect(isVowel()).toBe(false);
     });
+    it('should be return true when "e" entered', function () {
+        expect(isVowel("e")).toBe(true);
+    });
+    it('should be return true when "E" entered', function () {
+        expect(isVowel("E")).toBe(true);
+    });
+    it('should be return true when "i" entered', function () {
+        expect(isVowel("i")).toBe(true);
+    });
+    it('should be return true when "I" entered', function () {
+        expect(isVowel("I")).toBe(true);
+    });
+    it('should be return true when "o" entered', function () {
+        expect(isVowel("o")).toBe(true);
+    });
+    it('should be return true when "O" entered', function () {
+        expect(isVowel("O")).toBe(true);
+    });
+    it('should be return true when "u" entered', function () {
+        expect(isVowel("u")).toBe(true);
+    });
+    it('should be return true when "U" entered', function () {
+        expect(isVowel("U")).toBe(true);
+    });
+    it('should be return false when "e4" entered', function () {
+        expect(isVowel("e4")).toBe(false);
+    });
 })

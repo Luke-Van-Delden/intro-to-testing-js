@@ -41,7 +41,8 @@ function isEven(x) {
 }
 
  function isVowel(x){
-    if(x == "a" || x == "A"){
+    let vowels = ["a","A","e","E","i","I","o","O","u","U"]
+    if (vowels.includes(x)){
         return true;
     }
     else {
