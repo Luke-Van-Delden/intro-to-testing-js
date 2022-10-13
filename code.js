@@ -49,3 +49,15 @@ function isEven(x) {
         return false;
     }
  }
+
+ function add(a,b){
+    let newa = parseFloat(a);
+    let newb = parseFloat(b);
+    if ((typeof newa == "number") && (typeof newb == "number")){
+        return newa + newb;
+    }
+    else {
+        return NaN;
+    }
+
+ }

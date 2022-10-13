@@ -155,3 +155,13 @@ describe('isVowel', function() {
         expect(isVowel("e4")).toBe(false);
     });
 })
+
+describe('add', function() {
+    it('should be a defined function', function () {
+        expect(typeof add).toBe('function');
+    });
+    it('inputs is a number or a string containing a number', function () {
+        expect(typeof add()).toBe('number');
+    });
+
+})
