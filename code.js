@@ -3,6 +3,12 @@ function helloWorld() {
     return "Hello, World!";
 }
 function sayHello(string){
+    if (string === true || string === false) {
+        return "Hello, World!";
+    }
+    if (string === ""){
+        return "Hello!";
+    }
     return "Hello, " + string + "!";
     // if (string === "Jane") {
     //     return "Hello, Jane!";
