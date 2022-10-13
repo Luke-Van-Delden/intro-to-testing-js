@@ -67,7 +67,7 @@ describe('isEven', function() {
     it('should be a defined function', function () {
         expect(typeof isEven).toBe('function');
     });
-     it('should return Boolean when called', function () {
+    it('should return Boolean when called', function () {
          expect(typeof isEven()).toBe('boolean');
      });
     it('should return true when 2 entered', function () {
@@ -100,4 +100,8 @@ describe('isVowel', function() {
     it('should be a defined function', function () {
         expect(typeof isVowel).toBe('function');
     });
+    it('should return a as a boolean', function () {
+        expect(typeof isVowel()).toBe('boolean');
+    });
+
 })

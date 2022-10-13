@@ -33,13 +33,18 @@ function isFive(x) {
 
 function isEven(x) {
     if (x % 2  == 0){
-        return true
+        return true;
     }
-    else{
-        return false
+    else {
+        return false;
     }
 }
 
- function isVowel(){
-
+ function isVowel(x){
+    if(x){
+        return true;
+    }
+    else {
+        return false;
+    }
  }
