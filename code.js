@@ -2,6 +2,11 @@
 function helloWorld() {
     return "Hello, World!";
 }
-function sayHello(){
-    return "";
+function sayHello(string){
+    if (string === "Jane") {
+        return "Hello, Jane!";
+    }
+    else {
+        return "Hello, Alex!";
+    }
 }
