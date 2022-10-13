@@ -160,9 +160,6 @@ describe('add', function() {
     it('should be a defined function', function () {
         expect(typeof add).toBe('function');
     });
-    it('inputs is a number or a string containing a number', function () {
-        expect(typeof add()).toBe('number');
-    });
     it('when input add(2,3) returns 5', function () {
         expect(add(2, 3)).toBe(5);
     });
@@ -174,5 +171,8 @@ describe('add', function() {
     });
     it('when input add("-4", 10) returns 6', function () {
         expect(add("-4", 10)).toBe(6);
+    });
+    it('when input add("banana", "split") returns NaN', function () {
+        expect(add("banana", "split")).toBe(isNaN);
     });
 })

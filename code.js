@@ -55,7 +55,7 @@ function isEven(x) {
          return parseFloat(a) + parseFloat(b);
      }
     else {
-        return NaN;
+        return isNaN;
     }
 
  }
