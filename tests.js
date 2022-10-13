@@ -175,4 +175,10 @@ describe('add', function() {
     it('when input add("banana", "split") returns NaN', function () {
         expect(add("banana", "split")).toBe(isNaN);
     });
+    it('when input add(2, "apples") returns NaN', function () {
+        expect(add(2, "apples")).toBe(isNaN);
+    });
+    it('when input add() returns NaN', function () {
+        expect(add()).toBe(isNaN);
+    });
 })
