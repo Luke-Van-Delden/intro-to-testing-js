@@ -166,10 +166,10 @@ describe('add', function() {
     it('when input add(2,3) returns 5', function () {
         expect(add(2, 3)).toBe(5);
     });
-    it('when input add(-3,-9) returns 5', function () {
+    it('when input add(-3,-9) returns -12', function () {
         expect(add(-3, -9)).toBe(-12);
     });
-    it('when input add("5", 3) returns 5', function () {
-        expect(add("5", 3)).toBe(8);
+    it('when input add("5", 6) returns 11', function () {
+        expect(add("5", 6)).toBe(11);
     });
 })
