@@ -112,13 +112,16 @@ describe('isVowel', function() {
     it('should be return false when "y" entered', function () {
         expect(isVowel("y")).toBe(false);
     });
-    it('should be return false when "4" entered', function () {
-        expect(isVowel("4")).toBe(false);
+    it('should be return false when 4 entered', function () {
+        expect(isVowel(4)).toBe(false);
     });
     it('should be return false when true entered', function () {
         expect(isVowel(true)).toBe(false);
     });
-    it('should be return false when true entered', function () {
+    it('should be return false when false entered', function () {
         expect(isVowel(false)).toBe(false);
+    });
+    it('should be return false when "banana" entered', function () {
+        expect(isVowel("banana")).toBe(false);
     });
 })
