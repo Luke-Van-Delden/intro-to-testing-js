@@ -163,5 +163,10 @@ describe('add', function() {
     it('inputs is a number or a string containing a number', function () {
         expect(typeof add()).toBe('number');
     });
-
+    it('when input add(2,3) returns 5', function () {
+        expect(add(2, 3)).toBe(5);
+    });
+    it('when input add(-3,-9) returns 5', function () {
+        expect(add(-3, -9)).toBe(-12);
+    });
 })

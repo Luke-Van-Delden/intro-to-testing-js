@@ -51,11 +51,9 @@ function isEven(x) {
  }
 
  function add(a,b){
-    let newa = parseFloat(a);
-    let newb = parseFloat(b);
-    if ((typeof newa == "number") && (typeof newb == "number")){
-        return newa + newb;
-    }
+     if (!isNaN(parseFloat(a)) && !isNaN(parseFloat(b))){
+         return a + b;
+     }
     else {
         return NaN;
     }
