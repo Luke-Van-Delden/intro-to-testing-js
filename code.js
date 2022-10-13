@@ -10,6 +10,7 @@ function sayHello(string){
         return "Hello!";
     }
     return "Hello, " + string + "!";
+    // **THIS IS THE HARD WAY**
     // if (string === "Jane") {
     //     return "Hello, Jane!";
     // }
