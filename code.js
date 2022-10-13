@@ -21,3 +21,12 @@ function sayHello(string){
     //      return "Hello, Pat!";
     //  }
 }
+
+function isFive(x) {
+    if (x){
+        return true
+    }
+    else{
+        return false
+    }
+}

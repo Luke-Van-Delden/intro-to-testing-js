@@ -40,3 +40,13 @@ describe('sayHello', function() {
     });
 
 })
+
+describe('isFive', function() {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return Boolean when called', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
+
+})
