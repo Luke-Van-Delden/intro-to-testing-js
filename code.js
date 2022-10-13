@@ -41,7 +41,7 @@ function isEven(x) {
 }
 
  function isVowel(x){
-    if(x == "a"){
+    if(x == "a" || x == "A"){
         return true;
     }
     else {
