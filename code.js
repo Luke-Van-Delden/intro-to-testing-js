@@ -52,7 +52,7 @@ function isEven(x) {
 
  function add(a,b){
      if (!isNaN(parseFloat(a)) && !isNaN(parseFloat(b))){
-         return a + b;
+         return parseFloat(a) + parseFloat(b);
      }
     else {
         return NaN;

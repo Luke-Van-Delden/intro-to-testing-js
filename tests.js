@@ -169,4 +169,7 @@ describe('add', function() {
     it('when input add(-3,-9) returns 5', function () {
         expect(add(-3, -9)).toBe(-12);
     });
+    it('when input add("5", 3) returns 5', function () {
+        expect(add("5", 3)).toBe(8);
+    });
 })
