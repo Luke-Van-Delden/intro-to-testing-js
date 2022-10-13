@@ -172,4 +172,7 @@ describe('add', function() {
     it('when input add("5", 6) returns 11', function () {
         expect(add("5", 6)).toBe(11);
     });
+    it('when input add("-4", 10) returns 6', function () {
+        expect(add("-4", 10)).toBe(6);
+    });
 })
