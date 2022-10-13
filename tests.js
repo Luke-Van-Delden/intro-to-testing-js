@@ -124,4 +124,7 @@ describe('isVowel', function() {
     it('should be return false when "banana" entered', function () {
         expect(isVowel("banana")).toBe(false);
     });
+    it('should be return false when isVowel() entered', function () {
+        expect(isVowel()).toBe(false);
+    });
 })
